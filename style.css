@@ -1,0 +1,23 @@
+#app{
+    display: block;
+    margin: 15vw auto;
+    width: 450px;
+    height: auto;
+    text-align: center;
+    padding:  5px 10px;
+    background-color: aqua;
+    border-radius: 12px;
+    transition: 0.3s ease;
+}
+input[type='button']{
+    border: 1px solid rgb(224, 56, 56);
+    border-radius: 10px;
+    color: rgb(224, 56, 56);
+    background-color: transparent;
+    cursor: grab;
+}
+#content{
+    color: white;
+    visibility: hidden;
+    letter-spacing: 1px;
+}
